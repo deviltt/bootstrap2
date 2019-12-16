@@ -1,5 +1,6 @@
-@import "../css/bootstrap/bootstrap.min.css";
+@import "bootstrap.min.css";
 @import "stylesheet.css";
+@import "styling.css";
 
 html{
     height: 100%;

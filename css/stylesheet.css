@@ -8,7 +8,7 @@
     left: 0;
     top: 0;
     width: 220px;
-    margin: 10px 0 20px;
+    padding: 0 20px 0 10px;
     background: black;
     min-height: 100%;
 }
@@ -25,4 +25,36 @@
     margin-bottom: 20px;
     display: block; /*a标签需要变成块级元素后，才能设置宽和高*/
     background: url("../img/logo.png") no-repeat;
+}
+
+.input-append .add-on, .input-prepend .add-on {
+    border: 0px !important;
+    padding: 4px 7px 6px;
+    text-shadow: none;
+    background: #009AD7;
+    line-height: 25px;
+    -moz-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+input[type='text'], input[type='password'], textarea, select {
+    border-color: #CCC;
+    width: 100%;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: inline-block;      /*这样才可以设置高度*/
+    border-radius: 0;
+    color: #4c4c4c;
+    height: 30px;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+
+.input-prepend input[type='text']{
+    border-left: 0;
+}
+
+.sidebar .navigation{
+
 }
