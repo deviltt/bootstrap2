@@ -1,0 +1,10 @@
+@import "../css/bootstrap/bootstrap.min.css";
+@import "stylesheet.css";
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+}

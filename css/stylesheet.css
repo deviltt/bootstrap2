@@ -1,0 +1,28 @@
+.wrapper {
+    position: relative;
+    margin: 0 20px 0 0;
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 220px;
+    margin: 10px 0 20px;
+    background: black;
+    min-height: 100%;
+}
+
+.sidebar .top {
+    width: 220px;
+    height: 105px;
+    margin: 30px 0;
+}
+
+.sidebar .top .logo {
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: block; /*a标签需要变成块级元素后，才能设置宽和高*/
+    background: url("../img/logo.png") no-repeat;
+}
